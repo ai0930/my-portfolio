@@ -1,6 +1,6 @@
 # my-portfolio
 
-LuLuLun 15周年特設ページのような、パステルでかわいい就活向けポートフォリオ（Next.js + Tailwind CSS）。
+パステルでかわいい就活向けポートフォリオ（Next.js + Tailwind CSS）。
 
 ## セットアップ
 
