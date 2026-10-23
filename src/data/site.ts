@@ -30,9 +30,8 @@ export const projects: Project[] = [
   {
     title: "DrivePay",
     description:
-      "ドライブに起きる高速代やガソリン代を自動で計算し、メンバー間で割り勘できるアプリ。",
+      "ドライブ中の高速料金やガソリン代をメンバー間で割り勘するアプリ。ハッカソンで Flutter を用いて開発し、主に UI・フロントエンドの実装を担当した。",
     tags: ["Next.js", "TypeScript"],
-    link: "#",
     repo: "https://github.com/momomomomo0903/DrivePay",
   },
   {
@@ -54,6 +53,11 @@ export const musicVideos: MusicVideo[] = [
     title: "あいゼミ",
     event: "軽音楽部 2026年度演奏会",
     youtubeId: "https://youtu.be/GJmWSDRpkeE?si=Cdc62i823pqgenAH",
+  },
+  {
+    title: "ACE COLLECTION",
+    event: "軽音楽部 2025年度演奏会",
+    youtubeId: "https://youtu.be/ujr2wgtUmH8?si=eJpgj6VH37W5kYTu",
   },
 ];
 
