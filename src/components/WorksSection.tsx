@@ -11,12 +11,14 @@ export function WorksSection() {
           WORKS
         </h2>
         <p className="mb-12 text-center text-2xl font-bold text-ink">
-          プログラミング作品
+          プロダクト一覧
         </p>
         <ul className="grid gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <li key={project.title} className="card-soft rounded-3xl p-8">
-              <h3 className="mb-3 text-xl font-bold text-ink">{project.title}</h3>
+              <h3 className="mb-3 text-xl font-bold text-ink">
+                {project.title}
+              </h3>
               <p className="mb-4 text-sm leading-relaxed text-ink-muted">
                 {project.description}
               </p>

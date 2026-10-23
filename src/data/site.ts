@@ -1,13 +1,13 @@
 /** ここを書き換えて自分の情報に差し替えてください */
 
 export const profile = {
-  name: "Your Name",
-  nameJa: "あなたの名前",
-  tagline: "Code & Music",
+  name: "Ai Togo",
+  nameJa: "東郷愛",
+  tagline: "Programming & Music",
   subtitle: "プログラミングサークル × 軽音楽部",
   bio: "プログラミングでものづくりを、音楽で表現を。サークルと部活動を通じて学んだことを、就活に活かしたいと考えています。",
-  email: "your.email@example.com",
-  github: "https://github.com/your-username",
+  email: "togoai0930@icloud.com",
+  github: "https://github.com/ai0930",
 };
 
 export const navItems = [
@@ -28,18 +28,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "サークル作品（例）",
+    title: "DrivePay",
     description:
-      "ハッカソンや勉強会で制作したWebアプリの概要をここに書きます。",
+      "ドライブに起きる高速代やガソリン代を自動で計算し、メンバー間で割り勘できるアプリ。",
     tags: ["Next.js", "TypeScript"],
     link: "#",
-    repo: "#",
+    repo: "https://github.com/momomomomo0903/DrivePay",
   },
   {
-    title: "個人開発（例）",
-    description: "課題解決のために作ったツールやゲームなど。",
+    title: "交換日記",
+    description: "平成女児ブームの今の時代に合わせた、交換日記アプリ。",
     tags: ["React", "Node.js"],
-    repo: "#",
+    repo: "https://github.com/ai0930/exchange-note",
   },
 ];
 
@@ -51,20 +51,18 @@ export type MusicVideo = {
 
 export const musicVideos: MusicVideo[] = [
   {
-    title: "ライブ演奏（例）",
-    event: "軽音楽部 学園祭",
-    youtubeId: "dQw4w9WgXcQ",
+    title: "あいゼミ",
+    event: "軽音楽部 2026年度演奏会",
+    youtubeId: "https://youtu.be/GJmWSDRpkeE?si=Cdc62i823pqgenAH",
   },
 ];
 
 export const activities = [
   {
-    emoji: "💻",
-    title: "プログラミングサークル",
+    title: "PeachTech（プログラミングサークル）",
     body: "チーム開発、勉強会、ハッカソンなどに参加。設計から実装まで経験。",
   },
   {
-    emoji: "🎸",
     title: "軽音楽部",
     body: "バンド活動・ライブ出演。継続的な練習と本番でのパフォーマンス。",
   },
